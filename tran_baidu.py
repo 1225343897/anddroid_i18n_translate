@@ -13,6 +13,6 @@ def process_domTree(domTree):
       str.childNodes[0].data = tranStr;
       print(orgStr,"---->",tranStr)
 
-domTree = xml.dom.minidom.parse("../xml/strings2.xml")
+domTree = xml.dom.minidom.parse("strings2.xml")
 process_domTree(domTree)
-domTree.writexml(open("../xml/en.xml","w",encoding="utf8"),addindent = '' , newl = '' ,encoding = 'utf-8' )
+domTree.writexml(open("strings2_en.xml","w",encoding="utf8"),addindent = '' , newl = '' ,encoding = 'utf-8' )
