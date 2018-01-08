@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--分享-->
+    <string name="str_share_select_share_channel">请选择分享途径</string>
+    <string name="str_share_wechat">微信</string>
+    <string name="str_share_wechat_circle">朋友圈</string>
+    <string name="str_share_sina">微博</string>
+    <string name="str_share_cancel">取消分享</string>
+
+</resources>
